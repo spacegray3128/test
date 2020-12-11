@@ -9,11 +9,7 @@ for i in range(m):
     vector_list.append(vector)
 
 
-def calculatedis(vector1, vector2):
-    distance = 0
-    for i in range(n):
-        distance += (int(vector1[i]) - int(vector2[i])) * (int(vector1[i]) - int(vector2[i]))
-    return distance
+
 
 
 distance_list = []
